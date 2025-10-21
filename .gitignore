@@ -1,0 +1,46 @@
+# --- Node & Dependency ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Build Output ---
+lib/
+dist/
+build/
+
+# --- Example App ---
+example/.next/
+example/node_modules/
+example/.turbo/
+example/dist/
+example/out/
+
+# --- Test & Coverage ---
+coverage/
+*.lcov
+jest-cache/
+.vitest/
+
+# --- Environment & Config ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Misc ---
+temp/
+*.log
