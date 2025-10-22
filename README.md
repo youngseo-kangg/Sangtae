@@ -12,7 +12,7 @@ Zustand처럼 복잡한 추상화와 Provider 없이 “어떻게 전역 상태�
 
 ⚛️ Concurrent-safe — React 18의 useSyncExternalStore 기반
 
-🧱 심플한 API — createSangtae와 useSangtae 두 가지로 충분
+🧱 심플한 API — createStore와 useStore 두 가지로 충분
 
 🔍 선택적 구독 — 필요한 상태만 구독하는 selector 지원
 

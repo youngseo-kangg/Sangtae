@@ -1,3 +1,1 @@
-const text = "Sangtae";
-
-export default text;
+export { store, useGetStore, useSetStore, useStore } from "./hooks";
