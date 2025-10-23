@@ -1,7 +1,8 @@
 {
-  "name": "Sangtae",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@youngseo-kangg/Sangtae",
+  "version": "0.0.0",
+  "private": false,
+  "description": "minimal, reactive global state library for React",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,6 +22,10 @@
     "useSyncExternalStore"
   ],
   "author": "Youngseo-kangg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngseo-kangg/Sangtae"
+  },
   "license": "ISC",
   "packageManager": "pnpm@10.6.3",
   "dependencies": {
@@ -29,6 +34,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
+    "@types/node": "^24.9.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.0.4",
